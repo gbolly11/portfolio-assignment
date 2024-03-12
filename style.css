@@ -1,0 +1,77 @@
+/* css reset */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* styles on project */
+.header-div-container {
+    background-color: #061249;
+    padding: 25px 0;
+}
+
+.header-div {
+    color: white;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.header-div h3:hover {
+    text-decoration: overline;
+}
+
+.nav-links-container {
+    margin-left: 60%;
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: overline;
+}
+
+img {
+    width: 100%;
+}
+
+.header-div-text {
+    color: white;
+    word-spacing: 10px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+}
+
+.header-div-text h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+}
+
+.header-div-text h1:hover {
+    color: #061249;
+    background-color: white;
+}
+.header-div-text h4 {
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+} 
+
+.header-div-text h4:hover {
+    color: #061249;
+    background-color: white;
+}
+
+.main-div-image {
+    display: inline-block;
+    border-color: darkgreen;
+}
