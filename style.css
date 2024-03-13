@@ -71,7 +71,8 @@ img {
     background-color: white;
 }
 
-.main-div-image {
-    display: inline-block;
-    border-color: darkgreen;
+.main-div-text {
+    color: #061249;
+    text-align: center;
+    padding: 30px;
 }
