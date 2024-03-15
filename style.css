@@ -89,10 +89,37 @@
     margin: 10px;
 }
 
+.project:hover {
+    text-decoration: overline;
+}
+
 .project img {
     max-width: 100%;
 }
 
 .project h2 {
     padding: 5px;
+} 
+
+.footer-div {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.footer-div h1 {
+    font-size: 250%;
+    margin: 5%;
+}
+
+.footer-div a {
+    color: white;
+    margin: 5%;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.footer-div a:hover {
+    text-decoration: underline;
 }
